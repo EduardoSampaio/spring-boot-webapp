@@ -1,4 +1,4 @@
- package com.webapp.security.model;
+ package com.webapp.security.config;
 
 import com.webapp.domain.User;
 

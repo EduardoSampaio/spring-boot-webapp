@@ -1,4 +1,4 @@
-package com.webapp.security.service;
+package com.webapp.security.jwt;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,7 +7,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.webapp.domain.User;
-import com.webapp.security.jwt.JwtUserFactory;
 import com.webapp.service.UserService;
 
 @Service
