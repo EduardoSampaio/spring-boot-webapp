@@ -16,7 +16,7 @@ public class CurrentUser {
 		return token;
 	}
 
-	public void setToken(String token) {
+	public void setToken(String token) { 
 		this.token = token;
 	}
 
