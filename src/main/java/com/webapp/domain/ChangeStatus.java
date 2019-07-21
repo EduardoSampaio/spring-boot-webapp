@@ -59,6 +59,15 @@ public class ChangeStatus {
 	public void setStatus(StatusEnum status) {
 		this.status = status;
 	}
+
+	public Date getDateChangeStatus() {
+		return dateChange;
+	}
+
+	public void setDateChangeStatus(Date dateChange) {
+		this.dateChange = dateChange;
+	}
+
 	
 	
 }
